@@ -9,7 +9,7 @@ if plt == 'Linux': pathlib.WindowsPath = pathlib.PosixPath
 
 # title
 st.title("O`yinchoqlarni klassifikatsiya qiladigan model")
-st.text("Bu yerga quyidagi classlarga mansub bo`lgan rasmlarni jo`natishingiz mumkin: Taddy bear, Doll, Balloon, Flying disc
+st.text("Bu yerga quyidagi classlarga mansub bo`lgan rasmlarni jo`natishingiz mumkin: Taddy bear, Doll, Balloon, Flying disc")
 # rasm yuklash
 file = st.file_uploader("Rasm yuklash", type=['png','jpeg','jpg','gif','jfif','pjp','svg'])
 
